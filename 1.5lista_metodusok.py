@@ -32,5 +32,5 @@ def bfeladat():
     # adott indexű helyre beszúrja a megadott elemet
     nyelvek.insert(1, 'Go')     
     print(nyelvek)
-
+g
 bfeladat
