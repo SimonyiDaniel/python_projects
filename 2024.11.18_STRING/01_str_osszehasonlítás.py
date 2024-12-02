@@ -23,4 +23,4 @@ print(f'A sztringben {szamlalo} db e/E betű van.')
 if 'e' in sztring:
     print('Van benne e betű.')
 else:
-    print('Nincs benne e betű.')
+    print('Nincs benne e betű.') 
