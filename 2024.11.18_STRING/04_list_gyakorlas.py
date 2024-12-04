@@ -69,4 +69,15 @@ def feladat():
             break
 else:
     print("Nincs olyan negatív szám, amelynek minden szomszédja pozitív.")
+# 10. Ellenőrzés, hogy a lista szigorúan monoton növekvő-e
+    monoton_novekvo = all(szamok[i] < szamok[i+1] for i in range(len(szamok)-1))
+    print("A lista szigorúan monoton növekvő:", monoton_novekvo)
+# 11. Kiválogatás páros és páratlan számokra
+    paros_szamok = [szam for szam in szamok if szam % 2 == 0]
+    paratlan_szamok = [szam for szam in szamok if szam % 2 != 0]
+
+# Eredmények kiíratása
+    print("Páros számok:", paros_szamok)
+    print("Páratlan számok:", paratlan_szamok)
+
 feladat()
