@@ -23,7 +23,7 @@ def otos_lotto():
     print(f"A választott számaid:  {megadott_szamok}")
     
     print(f"A nyerő számok: {nyero_szamok}")
-    print(f"Ennyi számot találtál el: {talalatok}")
+    print(f"Ennyi számot találtál el: {talalatok} ennyi pénz jár érte:{talalatok * "💵💵💵💵💵💵"}")
 
 def hatos_lotto():
  
@@ -49,7 +49,7 @@ def hatos_lotto():
     print(f"A választott számaid:  {megadott_szamok}")
     
     print(f"A nyerő számok: {nyero_szamok}")
-    print(f"Ennyi számot találtál el: {talalatok}")
+    print(f"Ennyi számot találtál el: {talalatok} ennyi pénz jár érte:{talalatok * "💵💵💵"}")
 
 
 
@@ -67,8 +67,10 @@ def jatek_valasztasa():
         print("Kérlek az rendelkezésre álló 2 játék módból válassz!")
         jatek_valasztasa()
 
-menet = input("Mehet a lottó?(igen vagy nem)")
+menet = input("Mehet a lottó? (igen vagy nem): ")
 if menet == "igen":
     jatek_valasztasa()
 elif menet == "nem":
     print("ok👍")
+else:
+    print("Nem értelek!")
